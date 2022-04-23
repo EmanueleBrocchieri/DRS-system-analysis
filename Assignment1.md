@@ -8,18 +8,31 @@ What you have to do in this phase
 Then rate the customer requirements based on relative importance,
 
 2) analyze solutions of your competitors and understand what are the pros and cons of the actual available systems
-derive the list of engineering specifications and the matching with the customer requirements. How well each engineering specification responds to the customer requirements
-define the target values and the maximum/minimum values for each engineering specifications 
-Understand the "how"  engineering specifications affect each others and define the performance indices that could be optimised.
+ 
+3 )derive the list of engineering specifications and the matching with the customer requirements. How well each engineering specification responds to the customer requirements
+
+4) define the target values and the maximum/minimum values for each engineering specifications 
+
+5)Understand the "how"  engineering specifications affect each others and define the performance indices that could be optimised.
+
+__________________________________________________
 Some notes about the different steps:
+
 The above list corresponds to the House of Quality (HoQ) approach. You do not need to strictly follow the HoQ methodology but you can take inspiration to carry out each step.
+
 Divide the engineering specifications between kinematic and dynamics in order that you can leverage the methods that we will study for kinematic and dynamics
+
 Remember to keep it simple (limited in number of requirements) but consistent and well developed. 
+
 Remember that you can refine steps 3, 4 and 5 after you have developed analytical/numerical models and you understand more about the system you are studying.
+
+__________________________________________________
 What has to be delivered at the deadline?
 You have two options
 
-a short presentation where you summarise the results for each steps above and the decisions/reasons of your choices
-a short report short presentation where you summarise the results for each steps above and the decisions/reasons of your choices
+- a short presentation where you summarise the results for each steps above and the decisions/reasons of your choices
+
+- a short report short presentation where you summarise the results for each steps above and the decisions/reasons of your choices
+
 Please just report what you have done, decisions/reasons of your choices and results obtained and not the theory or what I said/wrote in the lecture.
 
