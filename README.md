@@ -14,7 +14,10 @@ ____ (1) SYSTEM REQUIREMENTS AND PERFORMANCE INDEX ____
 
 ____ (2) SYSTEM MODELLING ____
   - Evaluate the kinematics and dynamics of the 3 configurations
-      - PUSH-PULL -> kinematic done
+      - PUSH-UP -> kinematic done
+      - ROCKER-POD -> kinematic needs numerical solution !!
+      - POD-PULL -> kinematic done
+
 ____ (3) SYSTEM PERFORMANCE ANALYSIS ____
 
 ____ (4) ... ____
