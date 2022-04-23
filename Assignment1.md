@@ -1,4 +1,6 @@
 Description of assignment 1: engineering specifications
+
+
 This is the first homework that guides you through  the project development. The idea of the project  is to study, analyse and possibly optimise a drag reduction system for a racing car. The drag reduction system system can be controller with hydraulic or electrical actuators. The system must comply with F1 regulations and has to be designed in order to use less energy possible, disturb as less as possible the aerodynamics, be safe and reliable and quickly switch between open and closed positions without residual vibrations. .
 
 What you have to do in this phase
