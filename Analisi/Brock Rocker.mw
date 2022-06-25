@@ -107,12 +107,9 @@ with(LinearAlgebra):</Text-field>
 </Input>
 </Group>
 <Group view="code" hide-input="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">data:=[L0=160,L1=70 ,L2=140,alpha = 80*Pi/180, L4 = 160, L5 = 300, xP1 = 260, yP1 = -40, xP5 = 600 , yP5 = -20];
-l0 = 160;</Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">data:=[L0=160,L1=70 ,L2=140,alpha = 80*Pi/180, L4 = 160, L5 = 300, xP1 = 260, yP1 = -40, xP5 = 600 , yP5 = -20];</Text-field>
 </Input>
 <Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1ElZGF0YUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lKnJlZmVyZW5jZUdRJTU4NzZGJy8lMmRpc3BsYXlfcmVmZXJlbmNlR1ElNTg3NUYnLUkjbW9HRiQ2L1EpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRidGNUY4LyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZDLyUpc3RyZXRjaHlHRkMvJSpzeW1tZXRyaWNHRkMvJShsYXJnZW9wR0ZDLyUubW92YWJsZWxpbWl0c0dGQy8lJ2FjY2VudEdGQy8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlItSShtZmVuY2VkR0YkNigtRiM2OC1GIzYmLUYsNidRI0wwRidGL0YyRjVGOC1GPDYvUSkmZXF1YWxzO0YnRj9GNUY4RkFGREZGRkhGSkZMRk5GUEZTLUkjbW5HRiQ2JlEkMTYwRidGP0Y1RjhGPy1GPDYvUSIsRidGP0Y1RjhGQS9GRUYxRkZGSEZKRkxGTi9GUVEmMC4wZW1GJy9GVFEsMC4zMzMzMzMzZW1GJy1GIzYmLUYsNidRI0wxRidGL0YyRjVGOEZpbi1GXW82JlEjNzBGJ0Y/RjVGOEY/RmBvLUYjNiYtRiw2J1EjTDJGJ0YvRjJGNUY4RmluLUZdbzYmUSQxNDBGJ0Y/RjVGOEY/RmBvLUYjNiYtRiw2J1EoJmFscGhhO0YnL0YwRkNGP0Y1RjhGaW4tSSZtZnJhY0dGJDYoLUYjNiYtRl1vNiZRIjRGJ0Y/RjVGOC1GPDYvUTEmSW52aXNpYmxlVGltZXM7RidGP0Y1RjhGQUZERkZGSEZKRkxGTkZkby9GVEZlby1GLDYnUSUmcGk7RidGXXFGP0Y1RjhGPy1GXW82JlEiOUYnRj9GNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zlci8lKWJldmVsbGVkR0ZDRj9GYG8tRiM2Ji1GLDYnUSNMNEYnRi9GMkY1RjhGaW5GXG9GP0Zgby1GIzYmLUYsNidRI0w1RidGL0YyRjVGOEZpbi1GXW82JlEkMzAwRidGP0Y1RjhGP0Zgby1GIzYmLUYsNidRJHhQMUYnRi9GMkY1RjhGaW4tRl1vNiZRJDI2MEYnRj9GNUY4Rj9GYG8tRiM2Ji1GLDYnUSR5UDFGJ0YvRjJGNUY4RmluLUZdbzYmUSwmdW1pbnVzMDs0MEYnRj9GNUY4Rj9GYG8tRiM2Ji1GLDYnUSR4UDVGJ0YvRjJGNUY4RmluLUZdbzYmUSQ2MDBGJ0Y/RjVGOEY/RmBvLUYjNiYtRiw2J1EkeVA1RidGL0YyRjVGOEZpbi1GXW82JlEsJnVtaW51czA7MjBGJ0Y/RjVGOEY/LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZDRj9GP0Y1RjgvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRj8=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVkYXRhR0YoNywvSSNMMEdGKCIkZyIvSSNMMUdGKCIjcS9JI0wyR0YoIiRTIi9JJmFscGhhR0YoLCRJI1BpR0YmIyIiJSIiKi9JI0w0R0YoRjEvSSNMNUdGKCIkKyQvSSR4UDFHRigiJGcjL0kkeVAxR0YoISNTL0kkeFA1R0YoIiQrJy9JJHlQNUdGKCEjPzcjRi4=</Equation></Text-field>
-</Output>
-<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EjbDBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRicvJSpyZWZlcmVuY2VHUSU1ODc2RicvJTJkaXNwbGF5X3JlZmVyZW5jZUdRJTU4NzVGJy1JI21vR0YkNi9RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnRjVGOC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQy8lKXN0cmV0Y2h5R0ZDLyUqc3ltbWV0cmljR0ZDLyUobGFyZ2VvcEdGQy8lLm1vdmFibGVsaW1pdHNHRkMvJSdhY2NlbnRHRkMvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZSLUkjbW5HRiQ2JlEkMTYwRidGP0Y1RjhGPw==">L0kjbDBHNiIiJGci</Equation></Text-field>
 </Output>
 </Group></Presentation-Block>
 <Group labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -232,43 +229,64 @@ FF := make_FORCE(RF1,ff(t),0,0,P6,PISTON,CYLINDER):</Text-field>
 </Output>
 </Group>
 <Group labelreference="L33" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Lagrange multipliers</Font></Text-field>
 </Input>
 </Group>
 <Group labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field style="Text" layout="Normal">There are # constraint equations</Text-field>
 </Input>
 </Group>
-<Group labelreference="L35" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L35" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">lv := [lambda1(t),lambda2(t),lambda3(t),lambda4(t)];
+nops(lv) = nops(Phi);</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EnbF92YXJzRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLyUqcmVmZXJlbmNlR1ElNTg3NkYnLyUyZGlzcGxheV9yZWZlcmVuY2VHUSU1ODc1RictSSNtb0dGJDYvUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJ0Y1RjgvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkMvJSlzdHJldGNoeUdGQy8lKnN5bW1ldHJpY0dGQy8lKGxhcmdlb3BHRkMvJS5tb3ZhYmxlbGltaXRzR0ZDLyUnYWNjZW50R0ZDLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGUi1JKG1mZW5jZWRHRiQ2KC1GIzYsLUYjNiYtRiw2J1EqJmxhbWJkYTsxRidGL0YyRjVGOC1GPDYvUTAmQXBwbHlGdW5jdGlvbjtGJ0Y/RjVGOEZBRkRGRkZIRkpGTEZOL0ZRUSYwLjBlbUYnL0ZURl1vLUZWNiYtRiM2Ji1GLDYnUSJ0RidGL0YyRjVGOC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGQ0Y/Rj9GNUY4Rj8tRjw2L1EiLEYnRj9GNUY4RkEvRkVGMUZGRkhGSkZMRk5GXG8vRlRRLDAuMzMzMzMzM2VtRictRiM2Ji1GLDYnUSombGFtYmRhOzJGJ0YvRjJGNUY4RmluRl9vRj9GW3AtRiM2Ji1GLDYnUSombGFtYmRhOzNGJ0YvRjJGNUY4RmluRl9vRj9GW3AtRiM2Ji1GLDYnUSombGFtYmRhOzRGJ0YvRjJGNUY4RmluRl9vRj9GZm9GaW9GP0Y/RjVGOC8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGPw==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdsX3ZhcnNHRig3Ji1JKGxhbWJkYTFHRig2I0kidEdGJi1JKGxhbWJkYTJHRihGMS1JKGxhbWJkYTNHRihGMS1JKGxhbWJkYTRHRihGMTcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW5HRiQ2JlEiNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lKnJlZmVyZW5jZUdRJTU4NzZGJy8lMmRpc3BsYXlfcmVmZXJlbmNlR1ElNTg3NUYnLUkjbW9HRiQ2L1EpJmVxdWFscztGJ0YvRjJGNS8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPi8lKXN0cmV0Y2h5R0Y+LyUqc3ltbWV0cmljR0Y+LyUobGFyZ2VvcEdGPi8lLm1vdmFibGVsaW1pdHNHRj4vJSdhY2NlbnRHRj4vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZNLUYsNiZRIjFGJ0YvRjJGNUYv">LyIiJSIiIg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L49" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">yv := qv union lv;</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_foundations%3A-%60union%60%20expects%20its%201st%20argument,%20A,%20to%20be%20of%20type%20%7Blist,%20set%7D,%20but%20received%20q_vars" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_foundations:-`union` expects its 1st argument, A, to be of type {list, set}, but received q_vars</Font></Hyperlink></Text-field>
+</Output>
 </Group>
 <Group labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Lagrange equations</Font></Text-field>
 </Input>
 </Group>
-<Group labelreference="L37" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L37" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">constraints := make_CONSTRAINT(Phi,lv):
+mbs := {CYLINDER, PISTON, TRIANGLE, LINK, FLAP, T_AIR, FF, FA, constraints}:
+DAE_eqns := lagrange_equations(mbs,yv, t):&lt;%&gt;;</Text-field>
 </Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20MBSymba_r6_constraints%3A-make_CONSTRAINT)%20The%20number%20of%20expressions%20%3Cphi%3E%20and%20variables%20%3Cvars%3E%20must%20be%20equal!" hyperlink="true"><Font style="HyperlinkError">Error, (in MBSymba_r6_constraints:-make_CONSTRAINT) The number of expressions &lt;phi&gt; and variables &lt;vars&gt; must be equal!</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_dynamics%3A-lagrange_equations%20expects%20its%202nd%20argument,%20_coords,%20to%20be%20of%20type%20%7Blist,%20function%7D,%20but%20received%20y_vars" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_dynamics:-lagrange_equations expects its 2nd argument, _coords, to be of type {list, function}, but received y_vars</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUkqbWNvbXBsZXRlRzYjL0krbW9kdWxlbmFtZUc2IkksVHlwZXNldHRpbmdHSShfc3lzbGliR0YnNiQtSShtZmVuY2VkR0YkNiotSSVtcm93R0YkNiYtSSdtdGFibGVHRiQ2Ny1JJG10ckdGJDYoLUkkbXRkR0YkNiotRiw2KC1GLzY2LUkjbWlHRiQ2J1EjRkFGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRicvJSpyZWZlcmVuY2VHUSU1ODc2RicvJTJkaXNwbGF5X3JlZmVyZW5jZUdRJTU4NzVGJy1JI21vR0YkNi9RIixGJy9GRlEnbm9ybWFsRidGSEZLLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZELyUpc3RyZXRjaHlHRlYvJSpzeW1tZXRyaWNHRlYvJShsYXJnZW9wR0ZWLyUubW92YWJsZWxpbWl0c0dGVi8lJ2FjY2VudEdGVi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUY/NidRI0ZGRidGQkZFRkhGS0ZOLUY/NidRJUZMQVBGJ0ZCRkVGSEZLRk4tRj82J1ElTElOS0YnRkJGRUZIRktGTi1GPzYnUSdQSVNUT05GJ0ZCRkVGSEZLRk4tRj82J1EmVF9BSVJGJ0ZCRkVGSEZLRk4tRj82J1EpQ1lMSU5ERVJGJ0ZCRkVGSEZLRk4tRj82J1EpVFJJQU5HTEVGJ0ZCRkVGSEZLRk4tRj82J1EsY29uc3RyYWludHNGJ0ZCRkVGSEZLLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZWRlJGUkZIRksvJSVvcGVuR1EnJmxjdWI7RicvJSZjbG9zZUdRJyZyY3ViO0YnRltxRl5xLyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZocS8lK2dyb3VwYWxpZ25HRmhxLyUocm93c3BhbkdRIjFGJy8lK2NvbHVtbnNwYW5HRl9yRltxRl5xRmZxRmlxRltyRltxRl5xLyUmYWxpZ25HUSVheGlzRicvRmdxUSliYXNlbGluZUYnL0ZqcVEnY2VudGVyRicvRlxyUSd8ZnJsZWZ0fGhyRicvJS9hbGlnbm1lbnRzY29wZUdGRC8lLGNvbHVtbndpZHRoR1ElYXV0b0YnLyUmd2lkdGhHRl9zLyUrcm93c3BhY2luZ0dRJjEuMGV4RicvJS5jb2x1bW5zcGFjaW5nR1EmMC44ZW1GJy8lKXJvd2xpbmVzR1Elbm9uZUYnLyUsY29sdW1ubGluZXNHRmpzLyUmZnJhbWVHRmpzLyUtZnJhbWVzcGFjaW5nR1EsMC40ZW1+MC41ZXhGJy8lKmVxdWFscm93c0dGVi8lLWVxdWFsY29sdW1uc0dGVi8lLWRpc3BsYXlzdHlsZUdGVi8lJXNpZGVHUSZyaWdodEYnLyUwbWlubGFiZWxzcGFjaW5nR0Znc0ZbcUZecUZSRlIvSSttc2VtYW50aWNzR0YkUSpDb2xWZWN0b3JGJ0ZIRksvRmFxUScmbHNxYjtGJy9GZHFRJyZyc3FiO0YnRl11LUYsNigtRi82Ji1GMjY3LUY1NigtRjg2Ki1GLDYoLUYvNjYtRj82J0ZBRkJGW3FGXnFGRS1GTzYvRlFGW3FGXnFGUkZURldGWUZlbkZnbkZpbkZbb0Zdb0Zgby1GPzYnRmVvRkJGW3FGXnFGRUZkdi1GPzYnRmhvRkJGW3FGXnFGRUZkdi1GPzYnRltwRkJGW3FGXnFGRUZkdi1GPzYnRl5wRkJGW3FGXnFGRUZkdi1GPzYnRmFwRkJGW3FGXnFGRUZkdi1GPzYnRmRwRkJGW3FGXnFGRUZkdi1GPzYnRmdwRkJGW3FGXnFGRUZkdi1GPzYnRmpwRkJGW3FGXnFGRUZbcUZecUZSRltxRl5xRlIvRmFxUSJ8ZnJGJy9GZHFRInxockYnRltxRl5xRmZxRmlxRltyRl1yRmByRltxRl5xRmZxRmlxRltyRltxRl5xRmJyRmVyRmdyRmlyRltzRl1zRmBzRmJzRmVzRmhzRlt0Rl10Rl90RmJ0RmR0RmZ0Rmh0Rlt1RltxRl5xRlJGW3FGXnFGUi9GYXFRIltGJy9GZHFRIl1GJw==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyNYKiUhR0YoRihbZ2whIyUhISEiIiIiLUkobWZlbmNlZEc2JEYmL0krbW9kdWxlbmFtZUdGKEYkNi0tSSNtaUdGMDYjUSNGQUYoLUY1NiNRI0ZGRigtRjU2I1ElRkxBUEYoLUY1NiNRJUxJTktGKC1GNTYjUSdQSVNUT05GKC1GNTYjUSZUX0FJUkYoLUY1NiNRKUNZTElOREVSRigtRjU2I1EpVFJJQU5HTEVGKC1GNTYjUSxjb25zdHJhaW50c0YoL0klb3BlbkdGJVEnJmxjdWI7RigvSSZjbG9zZUdGJVEnJnJjdWI7Rig3Iy0mSSdWZWN0b3JHRiU2I0knY29sdW1uR0YoNiMvSSQlaWRHRigiNWdxUSVlPi9cJCpvJA==</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L38" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Initial conditions</Font></Text-field>
 </Input>
 </Group>
 <Group labelreference="L39" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field style="Text" layout="Normal">The initial q_vars have already be found in the initial position problem</Text-field>
 </Input>
 </Group>
-<Group labelreference="L40" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L40" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ics_qv := [];</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EnaWNzX3F2RicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLyUqcmVmZXJlbmNlR1ElNTg3NkYnLyUyZGlzcGxheV9yZWZlcmVuY2VHUSU1ODc1RictSSNtb0dGJDYvUSkmQXNzaWduO0YnL0YzUSdub3JtYWxGJ0Y1RjgvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRkMvJSlzdHJldGNoeUdGQy8lKnN5bW1ldHJpY0dGQy8lKGxhcmdlb3BHRkMvJS5tb3ZhYmxlbGltaXRzR0ZDLyUnYWNjZW50R0ZDLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGUi1JKG1mZW5jZWRHRiQ2J0Y/RjVGOC8lJW9wZW5HUScmbHNxYjtGJy8lJmNsb3NlR1EnJnJzcWI7RidGPw==">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSdpY3NfcXZHRig3IjcjRi4=</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L41" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field style="Text" layout="Normal">To find the ics for lv we solve the DAE equations with the lv terms given the ics_qv</Text-field>
 </Input>
 </Group>
 <Group labelreference="L42" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(DAE_eqns[1..4],lv,explicit=true);</Text-field>
 </Input>
 </Group>
 <Group labelreference="L43" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
