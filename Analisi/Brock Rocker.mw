@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2021" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="10" echo="1" scientificx="true" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="[10, 10]" useclientjvm="true" format="worksheet" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Title" executable="true" layout="Title"><Font executable="true">Brok Rocker</Font></Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20missing%20operator%20or%20%60%3B%60" hyperlink="true"><Font style="HyperlinkError">Error, missing operator or `;`</Font></Hyperlink></Text-field>
+</Output>
+</Group><Presentation-Block>
+<Group view="code" labelreference="L11" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+with(plots):
+with(plottools):
+with(MBSymba_r6):
+with(LinearAlgebra):</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Data definition</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L13" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">data:=[L0=160,L1=70 ,L2=140,alpha = 80*Pi/180, L4 = 160, L5 = 300, xP1 = 260, yP1 = -40, xP5 = 600 , yP5 = -20];
+l0 = 160;</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1ElZGF0YUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy8lKnJlZmVyZW5jZUdRJTU4NzZGJy8lMmRpc3BsYXlfcmVmZXJlbmNlR1ElNTg3NUYnLUkjbW9HRiQ2L1EpJkFzc2lnbjtGJy9GM1Enbm9ybWFsRidGNUY4LyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0ZDLyUpc3RyZXRjaHlHRkMvJSpzeW1tZXRyaWNHRkMvJShsYXJnZW9wR0ZDLyUubW92YWJsZWxpbWl0c0dGQy8lJ2FjY2VudEdGQy8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlItSShtZmVuY2VkR0YkNigtRiM2OC1GIzYmLUYsNidRI0wwRidGL0YyRjVGOC1GPDYvUSkmZXF1YWxzO0YnRj9GNUY4RkFGREZGRkhGSkZMRk5GUEZTLUkjbW5HRiQ2JlEkMTYwRidGP0Y1RjhGPy1GPDYvUSIsRidGP0Y1RjhGQS9GRUYxRkZGSEZKRkxGTi9GUVEmMC4wZW1GJy9GVFEsMC4zMzMzMzMzZW1GJy1GIzYmLUYsNidRI0wxRidGL0YyRjVGOEZpbi1GXW82JlEjNzBGJ0Y/RjVGOEY/RmBvLUYjNiYtRiw2J1EjTDJGJ0YvRjJGNUY4RmluLUZdbzYmUSQxNDBGJ0Y/RjVGOEY/RmBvLUYjNiYtRiw2J1EoJmFscGhhO0YnL0YwRkNGP0Y1RjhGaW4tSSZtZnJhY0dGJDYoLUYjNiYtRl1vNiZRIjRGJ0Y/RjVGOC1GPDYvUTEmSW52aXNpYmxlVGltZXM7RidGP0Y1RjhGQUZERkZGSEZKRkxGTkZkby9GVEZlby1GLDYnUSUmcGk7RidGXXFGP0Y1RjhGPy1GXW82JlEiOUYnRj9GNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zlci8lKWJldmVsbGVkR0ZDRj9GYG8tRiM2Ji1GLDYnUSNMNEYnRi9GMkY1RjhGaW5GXG9GP0Zgby1GIzYmLUYsNidRI0w1RidGL0YyRjVGOEZpbi1GXW82JlEkMzAwRidGP0Y1RjhGP0Zgby1GIzYmLUYsNidRJHhQMUYnRi9GMkY1RjhGaW4tRl1vNiZRJDI2MEYnRj9GNUY4Rj9GYG8tRiM2Ji1GLDYnUSR5UDFGJ0YvRjJGNUY4RmluLUZdbzYmUSwmdW1pbnVzMDs0MEYnRj9GNUY4Rj9GYG8tRiM2Ji1GLDYnUSR4UDVGJ0YvRjJGNUY4RmluLUZdbzYmUSQ2MDBGJ0Y/RjVGOEY/RmBvLUYjNiYtRiw2J1EkeVA1RidGL0YyRjVGOEZpbi1GXW82JlEsJnVtaW51czA7MjBGJ0Y/RjVGOEY/LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0ZDRj9GP0Y1RjgvJSVvcGVuR1EnJmxzcWI7RicvJSZjbG9zZUdRJyZyc3FiO0YnRj8=">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSVkYXRhR0YoNywvSSNMMEdGKCIkZyIvSSNMMUdGKCIjcS9JI0wyR0YoIiRTIi9JJmFscGhhR0YoLCRJI1BpR0YmIyIiJSIiKi9JI0w0R0YoRjEvSSNMNUdGKCIkKyQvSSR4UDFHRigiJGcjL0kkeVAxR0YoISNTL0kkeFA1R0YoIiQrJy9JJHlQNUdGKCEjPzcjRi4=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EjbDBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRicvJSpyZWZlcmVuY2VHUSU1ODc2RicvJTJkaXNwbGF5X3JlZmVyZW5jZUdRJTU4NzVGJy1JI21vR0YkNi9RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnRjVGOC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQy8lKXN0cmV0Y2h5R0ZDLyUqc3ltbWV0cmljR0ZDLyUobGFyZ2VvcEdGQy8lLm1vdmFibGVsaW1pdHNHRkMvJSdhY2NlbnRHRkMvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZSLUkjbW5HRiQ2JlEkMTYwRidGP0Y1RjhGPw==">L0kjbDBHNiIiJGci</Equation></Text-field>
+</Output>
+</Group></Presentation-Block>
+<Group labelreference="L5" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" foreground="[255,0,0]" layout="Normal"><Font bold="true" foreground="[255,0,0]">DYNAMICS WITH LAGRANGE APPROACH</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L6" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Bodies</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L7" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">data2 := [L_cylinder = 1, m_cylinder = 1, Iz_cylinder = 1, L_piston = 1, m_piston = 1, Iz_piston = 1, x_triangle = 1, y_triangle = 1, m_triangle = 1, Iz_triangle =1, m_link = 1, Iz_link = 1, x_flap = 1, y_flap = 1, m_flap = 1, Iz_flap = 1];</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2J1EmZGF0YTJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRicvJSpyZWZlcmVuY2VHUSU1ODc2RicvJTJkaXNwbGF5X3JlZmVyZW5jZUdRJTU4NzVGJy1JI21vR0YkNi9RKSZBc3NpZ247RicvRjNRJ25vcm1hbEYnRjVGOC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGQy8lKXN0cmV0Y2h5R0ZDLyUqc3ltbWV0cmljR0ZDLyUobGFyZ2VvcEdGQy8lLm1vdmFibGVsaW1pdHNHRkMvJSdhY2NlbnRHRkMvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZSLUkobWZlbmNlZEdGJDYoLUYjNkQtRiM2Ji1GLDYnUStMX2N5bGluZGVyRidGL0YyRjVGOC1GPDYvUSkmZXF1YWxzO0YnRj9GNUY4RkFGREZGRkhGSkZMRk5GUEZTLUkjbW5HRiQ2JlEiMUYnRj9GNUY4Rj8tRjw2L1EiLEYnRj9GNUY4RkEvRkVGMUZGRkhGSkZMRk4vRlFRJjAuMGVtRicvRlRRLDAuMzMzMzMzM2VtRictRiM2Ji1GLDYnUSttX2N5bGluZGVyRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EsSXpfY3lsaW5kZXJGJ0YvRjJGNUY4RmluRlxvRj9GYG8tRiM2Ji1GLDYnUSlMX3Bpc3RvbkYnRi9GMkY1RjhGaW5GXG9GP0Zgby1GIzYmLUYsNidRKW1fcGlzdG9uRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EqSXpfcGlzdG9uRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EreF90cmlhbmdsZUYnRi9GMkY1RjhGaW5GXG9GP0Zgby1GIzYmLUYsNidRK3lfdHJpYW5nbGVGJ0YvRjJGNUY4RmluRlxvRj9GYG8tRiM2Ji1GLDYnUSttX3RyaWFuZ2xlRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EsSXpfdHJpYW5nbGVGJ0YvRjJGNUY4RmluRlxvRj9GYG8tRiM2Ji1GLDYnUSdtX2xpbmtGJ0YvRjJGNUY4RmluRlxvRj9GYG8tRiM2Ji1GLDYnUShJel9saW5rRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EneF9mbGFwRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EneV9mbGFwRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EnbV9mbGFwRidGL0YyRjVGOEZpbkZcb0Y/RmBvLUYjNiYtRiw2J1EoSXpfZmxhcEYnRi9GMkY1RjhGaW5GXG9GPy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGQ0Y/Rj9GNUY4LyUlb3BlbkdRJyZsc3FiO0YnLyUmY2xvc2VHUScmcnNxYjtGJ0Y/">LV9JLFR5cGVzZXR0aW5nRzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiSSxtcHJpbnRzbGFzaEdGKDYkNyM+SSZkYXRhMkdGKDcyL0krTF9jeWxpbmRlckdGKCIiIi9JK21fY3lsaW5kZXJHRihGMS9JLEl6X2N5bGluZGVyR0YoRjEvSSlMX3Bpc3RvbkdGKEYxL0kpbV9waXN0b25HRihGMS9JKkl6X3Bpc3RvbkdGKEYxL0kreF90cmlhbmdsZUdGKEYxL0kreV90cmlhbmdsZUdGKEYxL0krbV90cmlhbmdsZUdGKEYxL0ksSXpfdHJpYW5nbGVHRihGMS9JJ21fbGlua0dGKEYxL0koSXpfbGlua0dGKEYxL0kneF9mbGFwR0YoRjEvSSd5X2ZsYXBHRihGMS9JJ21fZmxhcEdGKEYxL0koSXpfZmxhcEdGKEYxNyNGLg==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Cylinder</Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">G_cylinder := make_POINT(RF1,-(s(t)+L0)+L_cylinder/2,0,0):
+CYLINDER := make_BODY(G_cylinder,m_cylinder,0,0,Iz_cylinder);</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_POINT%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF1" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_kinematics:-make_POINT expects its 1st argument, TT, to be of type frame, but received RF1</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_dynamics%3A-make_BODY%20expects%20its%201st%20argument,%20T,%20to%20be%20of%20type%20%7BPOINT,%20frame%7D,%20but%20received%20G_cylinder" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_dynamics:-make_BODY expects its 1st argument, T, to be of type {POINT, frame}, but received G_cylinder</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Piston</Text-field>
+</Input>
+</Group>
+<Group labelreference="L17" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">G_piston := make_POINT(RF1,-L_piston,0,0):
+PISTON := make_BODY(G_piston,m_piston,0,0,Iz_piston);</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_POINT%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF1" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_kinematics:-make_POINT expects its 1st argument, TT, to be of type frame, but received RF1</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_dynamics%3A-make_BODY%20expects%20its%201st%20argument,%20T,%20to%20be%20of%20type%20%7BPOINT,%20frame%7D,%20but%20received%20G_piston" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_dynamics:-make_BODY expects its 1st argument, T, to be of type {POINT, frame}, but received G_piston</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Triangle</Text-field>
+</Input>
+</Group>
+<Group labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">G_triangle := make_POINT(RF1,x_triangle,y_triangle,0):                   <Font foreground="[255,0,0]"># wrt RF1</Font>
+TRIANGLE := make_BODY(G_triangle,m_triangle,0,0,Iz_triangle);</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_POINT%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF1" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_kinematics:-make_POINT expects its 1st argument, TT, to be of type frame, but received RF1</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_dynamics%3A-make_BODY%20expects%20its%201st%20argument,%20T,%20to%20be%20of%20type%20%7BPOINT,%20frame%7D,%20but%20received%20G_triangle" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_dynamics:-make_BODY expects its 1st argument, T, to be of type {POINT, frame}, but received G_triangle</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L20" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Link rod</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">G_link := make_POINT(RF4,-L4/2,0,0):
+LINK := make_POINT(G_link,m_link,0,0,Iz_link):</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_POINT%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF4" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_kinematics:-make_POINT expects its 1st argument, TT, to be of type frame, but received RF4</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20too%20many%20and%2For%20wrong%20type%20of%20arguments%20passed%20to%20MBSymba_r6_kinematics%3A-make_POINT%3B%20first%20unused%20argument%20is%20Iz_link" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: too many and/or wrong type of arguments passed to MBSymba_r6_kinematics:-make_POINT; first unused argument is Iz_link</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Flap</Text-field>
+</Input>
+</Group>
+<Group labelreference="L24" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">G_flap := make_POINT(RF5,-x_flap,-y_flap,0):                               <Font foreground="[255,0,0]"># depends on shape of flap</Font>
+FLAP := make_BODY(G_flap,m_flap,0,0,Iz_flap):</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_POINT%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF5" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_kinematics:-make_POINT expects its 1st argument, TT, to be of type frame, but received RF5</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_dynamics%3A-make_BODY%20expects%20its%201st%20argument,%20T,%20to%20be%20of%20type%20%7BPOINT,%20frame%7D,%20but%20received%20G_flap" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_dynamics:-make_BODY expects its 1st argument, T, to be of type {POINT, frame}, but received G_flap</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">External forces</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Air torque</Text-field>
+</Input>
+</Group>
+<Group labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">T_AIR := make_TORQUE(ground,0,0,Tair(t),FLAP):</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20MBSymba_r6_dynamics%3A-make_TORQUE)%20invalid%20input%3A%20_make_TORQUE%20expects%20its%202nd%20argument,%20BA,%20to%20be%20of%20type%20%7BBODY,%20mframe%7D,%20but%20received%20FLAP" hyperlink="true"><Font style="HyperlinkError">Error, (in MBSymba_r6_dynamics:-make_TORQUE) invalid input: _make_TORQUE expects its 2nd argument, BA, to be of type {BODY, mframe}, but received FLAP</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Friction force (Coulomb model wiothout static problem)</Text-field>
+</Input>
+</Group>
+<Group labelreference="L30" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">P6 := make_POINT(RF1,-L_piston,0,0):
+FF := make_FORCE(RF1,ff(t),0,0,P6,PISTON,CYLINDER):</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_POINT%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF1" hyperlink="true"><Font style="HyperlinkError">Error, invalid input: MBSymba_r6_kinematics:-make_POINT expects its 1st argument, TT, to be of type frame, but received RF1</Font></Hyperlink></Text-field>
+</Output>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20MBSymba_r6_dynamics%3A-make_FORCE)%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_VECTOR%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF1" hyperlink="true"><Font style="HyperlinkError">Error, (in MBSymba_r6_dynamics:-make_FORCE) invalid input: MBSymba_r6_kinematics:-make_VECTOR expects its 1st argument, TT, to be of type frame, but received RF1</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Actuating force</Text-field>
+</Input>
+</Group>
+<Group labelreference="L32" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">FA := make_FORCE(RF1,fa(t),0,0,P6,PISTON,CYLINDER):</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkError" layout="HyperlinkError"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Error,%20(in%20MBSymba_r6_dynamics%3A-make_FORCE)%20invalid%20input%3A%20MBSymba_r6_kinematics%3A-make_VECTOR%20expects%20its%201st%20argument,%20TT,%20to%20be%20of%20type%20frame,%20but%20received%20RF1" hyperlink="true"><Font style="HyperlinkError">Error, (in MBSymba_r6_dynamics:-make_FORCE) invalid input: MBSymba_r6_kinematics:-make_VECTOR expects its 1st argument, TT, to be of type frame, but received RF1</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group labelreference="L33" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L34" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L35" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L36" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L37" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L38" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L39" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L40" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L41" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L42" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L43" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L44" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L45" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L46" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
